@@ -12,7 +12,7 @@ html,
 body {
   height: 100%;
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color: rgba(177, 168, 227, 0.937);
   position: relative;
 }
 
@@ -199,7 +199,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
   height: 500px;
   color: #fff;
   font-weight: bold;
-  background-image: url(../images/top.jpg);/* 背景画像 */
+  background-image: url(../images/IMG73883658.jpg);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
   background-position: center center;/* 背景画像の位置 */
   background-attachment: fixed;/* スクロールしたときの背景画像の位置 固定 */
@@ -231,7 +231,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
   font-weight: bold;
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px solid #333;
+  border-bottom: 2px solid #333;
 }
 
 a.link_btn{
