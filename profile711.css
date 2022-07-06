@@ -29,4 +29,5 @@ div {
 .scrollbox {
   background-color: rgb(216, 194, 227);
   text-align: left;
+  display: block;
 }
