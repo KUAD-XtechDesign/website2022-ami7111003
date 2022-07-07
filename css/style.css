@@ -19,7 +19,7 @@ body {
 body {
   font-size: 20px;
   line-height: 1.6;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "", "メイリオ", Meiryo, sans-serif ;
+  font-family: "游ゴシック体", YuGothic, "ＭＳ 明朝,平成明朝","游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "", "メイリオ", Meiryo, sans-serif ;
   color: #ffffff;
   letter-spacing: 0.05em;
 }
@@ -35,9 +35,9 @@ a:hover {
 }
 
 /* 画像は親要素からはみ出さないように最大幅を100%に */
-img {
-  max-width: 100%;
+img { max-width: 100%;
   height: auto;
+
 }
 
 /* リストの先頭に・がつかないように */
@@ -211,7 +211,8 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 }
 
 .link_menu{
-  padding-top: 50px;
+  padding-top: 100px;
+  display: flex;
 }
 
 .each_link{
