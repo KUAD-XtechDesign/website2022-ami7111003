@@ -19,7 +19,8 @@ body {
 body {
   font-size: 20px;
   line-height: 1.6;
-  font-family: "游ゴシック体", YuGothic, "ＭＳ 明朝,平成明朝","游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "", "メイリオ", Meiryo, sans-serif ;
+  /* font-family: "游ゴシック体", YuGothic, "ＭＳ 明朝,平成明朝","游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "", "メイリオ", Meiryo, sans-serif ; */
+  font-family: serif;
   color: #ffffff;
   letter-spacing: 0.05em;
 }
@@ -217,6 +218,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 
 .each_link{
   display: flex;
+  margin-right: 20px;
 }
 
 .each_link .link_pic{
@@ -236,6 +238,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 }
 
 a.link_btn{
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: bold;
   display: block;
@@ -395,4 +398,13 @@ profileページ
 ======================================================*/
 .mb_m {
   margin-bottom: 20px;
+}
+
+
+.myprofile{
+  display: flex;
+}
+
+.myprofile img{
+  margin-right: 20px;
 }
